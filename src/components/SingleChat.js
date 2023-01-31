@@ -15,7 +15,7 @@ import Lottie from "react-lottie";
 import animationData from "../components/animations/typing.json";
 
 import io from "socket.io-client";
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://chat-byte-backend.onrender.com"; //deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
